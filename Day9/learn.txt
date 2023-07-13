@@ -1,0 +1,86 @@
+##CSS GRID
+
+So css grid is basically used to make better the use of css better. 
+it includes rows and coloumns grids areas in which we can give space to the divs according to our needs.
+
+considering an example -
+
+->>> Create 5 divs , each with the class="item" . put the
+
+Display : grid ;
+
+Use grid-template-columns and grid-template-rows for giving the 
+size of rows and columns
+
+grid-template-columns : 200px 40rem 30%
+grid-template-rows : 300px , 40%
+grid-auto-rows : 300px;  // we automatically give it to every rows
+grid-auto-columns : 
+
+--->> Fews more properties to use in display -> grid
+
+gap:
+justify-content :
+place-content :
+align-content :
+
+
+---> If you have fixed size of rows and columns then it will
+    not be responsive to make it responsive you have to give same 
+    size to each coloumn (for eg 1fr)
+
+---> Justify-items and justify-content are two differrent properties
+     items meaning that jo bhi item suppose "isha" , toh isha jitna 
+     space lera sirf usko justify krega
+     but in content vo box ko justify krega
+
+---> suppose we want to have first item to have the space of 
+    two items so we would this new property 
+
+    item(isko space dena hai) {
+        grid-coloumn : span 2 ;
+    }
+
+    value of span it default set to one.
+
+##### GRID areas
+
+terminologies - coloumn lines , row Lines , tracks , grid cell
+
+These cells hold particular areas
+
+Example would be - Create a common layout - header , content , sidenav , footer
+
+properties - 
+grid-template-areas
+grid-area (for the element jisko area assign kiya hai)
+
+
+
+--------> Changes to portfolio by adding hover effect in techstack
+
+#### JAVA SCRIPT 
+
+-------> Lexical envirment
+
+     Lexical Environment is the internal JS engine construct that holds 
+     identifier-variable mapping
+
+
+.......> hoisting
+        declaring a variable before using it (not done in most of the languges)
+        It will say undefined and no error will occur
+
+        this happens because of execution context 
+
+        it works in two phases - creation phase and executio phase
+
+        creation phase me code read krtae aur uski memory me space bana leta hai
+
+        an then phir execution phase me line by line read krtae
+
+----->every time a fucnction is created a new execution context is created
+
+........> Scope chain means ek particular chiz ka kitna scope hai
+
+        we should generally use let and const variable

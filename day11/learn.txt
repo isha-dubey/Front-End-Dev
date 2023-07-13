@@ -1,0 +1,60 @@
+##Default values in Js 
+
+....> functions usually have default values for parameters
+    when you dont give any parameter to function it sets in as undefeined
+
+## Ways of creating an object
+
+....> Object literal Syntax 
+        let person = {
+            firstname : "isha" ,
+            lastname : "doe"
+        }
+
+....> By object() function
+
+    let anotherPerson = new object();
+    anotherPerson.firstname = "isha"
+    anotherPerson.lastname = "dubey"
+    console.log (anotherPerson)
+
+.....> function Constructor
+
+    function person(){
+      this.firstname = "jane"
+      this.lastname = "doe"
+    }
+    let jane = new Person();
+    console.log(jane)
+
+## Prototype 
+
+All the javascript objects inhrits the properties and methods from prototype.
+
+such type of inheritance is called prototypal inheritance
+
+Date objects inherit from Date.prototype
+Array objects inherit from Array.prototype
+Person objects inherit from Person.prototype
+The Object.prototype is on the top of the prototype inheritance chain:
+
+Date objects, Array objects, and Person objects inherit from Object.prototype.
+
+ The prototype is itself an object, so the prototype will have its own prototype, 
+ making what's called a prototype chain. The chain ends when we reach a prototype\
+  that has null for its own prototype.
+
+
+### Object.create()
+
+Normally if we use object literal syntax and then delete any value from it it will be delted
+from its protto also. but if we use object.create we can not delte any value cause its permanently stored
+in it\
+
+let obj = object.create(){
+
+    fname: Isha ,
+    Lname: Dubey
+}
+delete obj.Lname
+console.log(obj.Lname)

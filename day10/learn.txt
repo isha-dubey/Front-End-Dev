@@ -1,0 +1,52 @@
+### JAVA script 
+
+In JS functions are readed as first class functions
+ ...> it means that function can be passed on to other functions as parameters 
+    functions can be looked as datatypes
+
+In JS functions has two properties jisse name bata skte uska
+function.name
+'function'    
+function - function ka name
+
+
+## Closures
+
+A closure is the combination of a function 
+bundled together (enclosed) with references to 
+its surrounding state (the lexical environment).
+ In other words, a closure gives you access to an
+  outer function's scope from an inner function
+
+
+...> in index.JS
+
+## callback function
+
+A CALLBACK function IS A function passed into another function
+as an argument , wich is then invoked inside the outerfunction 
+tu comeplete the action.
+
+##  In javaScript everything is an object 
+ 
+ ## Call Apply bind()
+
+ ##arguments are nothing but the parameters that a function is returning
+
+ function sum(x ,y)
+ {
+  console.log (arguments)
+  return x + y;
+
+ }
+ sum (2,3)
+
+ ...> arguments.length   
+
+
+ ## function currying
+
+ it means to modify any code written previously . usme kuch change krna
+ We can think it as extedning the functionalities and changing the meaning
+ of existing function
+ 

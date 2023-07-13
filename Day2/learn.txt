@@ -1,0 +1,158 @@
+                                            #JAVASCRIPT
+
+-makes the site interactive by taking inputs from users
+- <script> this tag is use to apply javascript. it indicates
+  the start of js</script>       
+
+                                        #data types
+
+                // Numbers:
+                let length = 16;
+                let weight = 7.5;
+
+                // Strings:
+                let color = "Yellow";
+                let lastName = "Johnson";
+
+                // Booleans
+                let x = true;
+                let y = false;
+
+                // Object:
+                const person = {firstName:"John", lastName:"Doe"};
+
+                // Array object:
+                const cars = ["Saab", "Volvo", "BMW"];
+
+                // Date object:
+                const date = new Date("2022-03-25");
+
+
+//////When adding a number and a string, JavaScript will treat the number as a string.
+
+                                        #Variables
+
+///// Variables are of dynamic type in js meaning that a
+     string can be converted into a boolean or a number  
+
+ ### Declaration   var foo = "isha" or let foo="isha"  or Const a=10
+ # Const is use for value that you dont wanna change throughout
+
+###    Whenever you are assigning a variable and not assigning
+       any value to it its initially value is undefined                          
+
+
+### NaN (not a number) is another datatype that comes when you add two diff datatypes
+### Symbol
+### Big int
+
+
+        ## For creating custom data types we use objects 
+        ## Let person = {fristName: "Isha", Age:30}
+
+if we want to add new data / data type to it 
+we will use ### person.islearningfrontend = true;
+
+## you cant redeclare using let and const but you can with var
+
+{
+    let x=1o  #you can not access this outside the block with let keyword but with var you can
+}
+
+                            ### Operators
+
+    ## Aissgnment Operator (=)
+    ## // Assign the value 5 to x
+          let x = 5;
+///
+Arithmetic Operators --> + , - , * , **{exponential} , / {divsion} , % {modulus}
+Assignment Operators --> = , += , -=
+Comparison Operators --> =={equal to} , ==={equal to and type} , != {not equal} , < , >
+String Operators  --> {Comparison ops can be used for string} , + can be used to add two strings
+Logical Operators  --> &&{logical and} || {logical or} ! logical not
+Bitwise Operators
+Ternary Operators --> (condition) ? "...." : "else"
+Type Operators ////
+
+
+            ### TYpe conversion
+                - num1.toString()
+                - parseInt("value") into integer
+
+            ### length of any string
+            a = "isha"
+            a.length
+            .charAt {jaha pe bhi char h}
+
+    ###Flow Statements
+
+#if else Statements
+   ////
+     if (num1 > num2 ){ 
+        console.log(num1 + "is greater than " + num2); 
+      }
+     else if { console.log( "not true");}
+     else {
+        console.log("ok");
+     }
+
+   ////num1 > num2 ? " 1 is greater thn 2" : "nothing"
+
+   # Switch cases
+   (alternative of if/else)
+   switch(num)
+    {
+        case 1:  console.log ("sunday"); 
+                break;  
+        case 2: console.log("tuesday"); 
+                break;
+         default: console.log("invalid");
+     }
+
+                ####loops
+
+--> while
+while (condition is true)
+        {// do something}; increment
+
+     ////
+        while (index <=10) {
+    console.log(index); index++}
+
+--> Do while 
+ do {
+    //do something
+    console.log(index);
+    index++;
+ } while (index <=10)
+                            ////the loop is atleast runne once in do while kyuki
+                                condition baad me check krta while loop me phele check krta condition
+
+---> For
+ for (let index=1 ; index<=10 ; index++)
+   {console.log(index);}
+
+                        ###ARRAys
+    
+    -allows collection of similar datatypes
+    -  const fruits=["apple", "anana" , "kiwi"]
+      
+      /// to modify
+        fruits[1] = "date"
+      ///
+      an array can have different data types
+
+      ///
+      using loop
+      let sum=0
+      for (let index=0 ; index<numbers.length; i++)
+      {sum += numbers[index]}
+
+      ///// push pop
+            numbers.push(11)
+            numbers.pop(2)
+            numbers.slice(-1,3)
+            numbers.slice (0,2)
+
+      /// for of loop
+      /// for in loop

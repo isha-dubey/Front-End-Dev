@@ -1,0 +1,74 @@
+body {
+    margin: 0px;
+    padding: 0%;
+}
+.container {
+    margin: 16px;
+    
+}
+
+.sociallinks{
+    display: flex;
+    margin: -16px ;
+    padding-left: 882px;
+    /* padding-right: 0px; */
+    background-color: black;
+    /* box-sizing: border-box;    */
+    /* background-color: transparent;  */
+}
+
+ .top {
+    
+    margin :-16px ;
+    padding: 10px 10px 10px 10px;
+    justify-content: space-evenly;
+    align-items: flex-end;
+  
+    color:azure ;
+    background-color: rgba(0, 0, 0, 0.998)
+   }
+
+    .image{
+        margin: 0 auto;
+        border-radius:auto
+    }
+
+    .intro h1{
+        font-size:25px;
+        margin-bottom: 0%;
+    }
+    .intro h3 {
+        font-size: 35px;
+        margin-top: 0%;
+    }
+    .intro{
+        margin: 0 auto;
+        
+        /* text-align:end; */
+    }
+.intro a {
+    margin: auto auto 0px 10px;
+    align-items:top-right;
+}
+    .aboutme h2
+    {
+        font-size: 40px;
+        
+    }
+    .aboutme p{
+        font-size: 20px;
+    }
+   
+    /*
+    #isha{
+        padding-right: 600px;
+        margin-left: 250px;
+        margin-top: 100px;
+        display:inline;
+        text-align: center;
+    }
+
+    .image{
+    
+        margin-left: 200px;
+    } */

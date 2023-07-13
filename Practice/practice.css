@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+}
+
+a{
+    padding: 10px;
+}
+
+.default-nav{
+    display:block;
+}
+
+.mobile-nav , #Menu {
+    display: none;
+    
+}
+
+@media (width <= 500px){
+
+    .default-nav{
+    display: none;
+    }
+
+    .mobile-nav{
+        display: revert;
+    }
+   
+    section #Menu {
+        display: revert;
+        z-index: 3;
+        height: 100%;
+        overflow: hidden;
+        width: 100%;
+        background-color: rgb(12, 13, 16);
+    }
+    
+    #menu-button {
+        
+        margin-left: auto;
+    }
+    
+    
+    
+}

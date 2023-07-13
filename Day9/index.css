@@ -1,0 +1,57 @@
+ /* example for understanding grid
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300px 40%;
+    gap: 16px;  
+    /* justify-content: center;   
+    justify-items: center;
+} 
+
+.item {
+    display: grid;
+    background-color: coral;
+    /* justify-content: center; 
+    justify-items: center;
+} 
+ */
+
+/* 
+ example for understandong grid areas */
+
+ *{
+    box-sizing: border-box;
+ }
+ .container{
+    display: grid ;
+    grid-template-columns: repeat(4 , 1fr);
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas: "header header header header" "aside main main main" "footer footer footer footer";
+    height: 100vh;
+ }
+.container > * {
+    padding: auto;
+    display: grid;
+    font-size: xx-large;
+    place-content: center;
+}
+ header{
+    background-color: aquamarine;
+    grid-area: header;
+ }
+
+ aside {
+    background-color: blueviolet;
+    grid-area: aside;
+ }
+
+ main {
+    background-color: coral;
+    grid-area: main;
+ }
+
+ footer {
+    background-color: rgb(170, 170, 70);
+    grid-area: footer;
+
+ }

@@ -1,0 +1,36 @@
+Leartn basic structure of HTML with basic meaning of what is CSS and Javascript
+
+HTML
+-allows us to structure doc using markups
+
+CSS
+-Allows to style the website 
+-modify colors
+-determine how to place tags
+
+JS 
+- Allows interactivity
+
+
+#basic Syntax 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+
+# <a href="" target="_blank" > target will show the link in other tab </a>
+# <img src="" alt="">
+# <div>   </div>
+# <section>  </section>
+# <nav> this includes links like a navigation bar generally used at the header</nav>
+
+CSS

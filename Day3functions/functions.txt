@@ -1,0 +1,48 @@
+Take an example of comparing numbers , if we have to execute a code we have to rewrite it again and 
+again for different values assigned instead of that we will use it again and again.
+
+just like css we can also link a JS file by creating .js file.
+
+<script src='main.JS'>
+   </script>
+
+####functions###3
+
+function compareNumber(num1,num2) // defining a function
+{
+    if (num1>num2){
+        console.log(num1 + " is greater than " + num2)
+    }
+    else {
+        console.log(num1 + ' is less than ' + num2)
+    }
+}
+
+const compare= compareNumber(2,5) // calling a function
+console.log(compare)
+
+function print() // function with no parameters
+{
+    console.log ("hello this text is printed using print function")
+}
+print()
+
+function addNumbers(num1,num2){
+    return num1 + num2;    // function returning a value
+}
+
+const result= addNumbers(5,3)
+console.log (result)
+
+const subtract = function(num1,num2)   //function with no name
+{ return  num1-num2;
+}
+
+console.log(subtract(5,2))
+
+// In objects also we can use functions 
+
+const person = {name1:"isha" , Age:30 , print: function() { console.log("this is a property of an object")} }
+
+person.print()
+person.name1
