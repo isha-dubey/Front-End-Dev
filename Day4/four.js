@@ -28,8 +28,8 @@
 // document.addEventListener("keyup", function(e){
 //     console.log(e)
 //     console.log(e.key)
-//     if (e.key == 2)
-//     e.preventDefault();
+//     if (e.key == 2){
+//     e.preventDefault(); }
 // })
 
 // document.addEventListener("keypress", function(e){

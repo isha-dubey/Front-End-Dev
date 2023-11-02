@@ -1,0 +1,49 @@
+// Event loop
+
+We know that a browser has many functions and responsiblities
+we saw that rendering engine is reponsible for the UI. JS engine is reponsible for the
+javascript execution , which sums up that there is a lot going at the backend of a website
+
+Now we need to understand that Js engine executes code in "Single threaded" manner . that is it executes one 
+line of  code at a time and execution is synchronous is nature. 
+But isha you read that JS is Asynchronous how????
+
+
+So there are three key points to remember 
+1. Event loop
+2. execution context
+3. Call stack
+
+taking an example
+
+
+ const longRunninFn = () => {
+     console.log("longRunninfn started");
+     const duration = Date.now() + 3000
+     while(Date.now() <=duration){
+        
+     }
+     console.log("longRunninfn ended");
+ }
+
+ const handleClick = () => {
+     console.log("button clicked");
+ }
+
+ document.addEventListener("DOMContentLoaded" , ()=> {
+     document.getElementById("clickable").addEventListener("click" , handleClick)
+     longRunninFn()
+ })
+
+
+Yaha pe agar apan dekhe toh click event is handled baad me and phele function ka
+execution khtm hua . abh the thing is events / reqs and stuff are placed in event queque
+and once the call stack is cleared by taking functions for execution and then 
+putting it back. it then takes the events present in the event queque. 
+
+
+whenever a function is created its execution context is created and placed on the queque
+
+Summing up ki javascript works in synchronous way but due to event queque we feel
+that it is asynchronous.
+

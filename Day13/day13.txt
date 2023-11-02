@@ -1,0 +1,20 @@
+########Promises 
+
+A Promise represents an outcome of an outcome
+which will happen sometime in the futurw and we dont know
+when that operation will be going to complete.
+
+the outcome is known to us. and if its successfully returns 
+that means the promise is fullfilled
+
+
+here we use callback function where we use resolve and 
+reject fucntions as parameters. resolve is used when the promise is 
+fullfilled and reject if its not.
+
+let promise = new Promise((resolve,reject)) =>{
+
+    setTimeout(() => {
+        resolve(10_000)
+     } , 3000 ) //represents two days
+}

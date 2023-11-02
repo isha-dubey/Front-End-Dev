@@ -37,37 +37,73 @@
 // let letterIndex = 0;
 // let phraseIndex = 0;
 
-// function printLetters(phrase){
-//     if (letterIndex < phrase.length){
-//         dynamicContent.textContent += phrase.charAt(letterIndex);
-//         letterIndex += 1;
-//         setTimeout(function(){
-//             printLetters(phrase)}, 100)
-//     }
-//     else if(letterIndex== phrase.length){
-//         clearletters()
-//     }
-// }
-// function clearletters(){
-//  if(letterIndex > -1)
-//  { 
-//     let updatedPhrase= "" ;
+//  function printLetters(phrase){
+//      if (letterIndex < phrase.length){
+//          dynamicContent.textContent += phrase.charAt(letterIndex);
+//          letterIndex += 1;
+//          setTimeout(function(){
+//              printLetters(phrase)}, 100)
+//      }
+//      else if(letterIndex== phrase.length){
+//          clearletters()
+//      }
+//  }
+//  function clearletters(){
+//   if(letterIndex > -1)
+//   { 
+//      let updatedPhrase= "" ;
     
-//     for (let index = 0; index < letterIndex; index++) {
+//      for (let index = 0; index < letterIndex; index++) {
 //         updatedPhrase += phrases[phraseIndex].charAt(index);
-//       }
-//     dynamicContent.textContent = updatedPhrase;
-//     letterIndex -= 1;
-//     setTimeout (clearletters , 100);
+//        }
+//      dynamicContent.textContent = updatedPhrase;
+//      letterIndex -= 1;
+//      setTimeout (clearletters , 100);
 //     }
-//   else if (letterIndex == -1)
-//   { phraseIndex= (phraseIndex +1) % phrases.length;
-//     letterIndex = 0;
-//     printLetters(phrases[phraseIndex])
-// }  
+//    else if (letterIndex == -1)
+//    { phraseIndex= (phraseIndex +1) % phrases.length;
+//      letterIndex = 0;
+//      printLetters(phrases[phraseIndex])
+//  }  
 
+//  }
+//  printLetters(phrases[phraseIndex])
+
+// const add = function Addnumber(num1 ,num2)
+// {
+//   return  num1 + num2 ;
 // }
-// printLetters(phrases[phraseIndex])
+// const result = add(5,3)
+// console.log(result)
 
+// document.getElementsByClassName
+// const span = document.createElement("span")
+// span.id = "blue"
+// span.className = "red"
+// document.body.para.appendChild(span)
 
-Isha
+// let strng_name = "isha"
+
+//         let slipitng = strng_name.split("")
+//         console.log(slipitng)
+//         for (let i = 0 ; i< slipitng.length ; i++){
+                
+//             for (let j = 0 ; j<= i ; j++)
+//             {
+//                 console.log(slipitng.charAt[i][j])
+//             }
+//         }
+
+function combinator (s) {
+    list_of_strings = new Array();
+    for(i=0;i<s.length;i++) {
+        for(j=i+1;j<s.length+1;j++) {
+            list_of_strings.push(s.slice(i, j));
+        }
+    }
+    return list_of_strings;
+ }
+var dog = combinator("dog")
+for (x=0;x<dog.length;x++){
+    
+}

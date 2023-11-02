@@ -1,0 +1,38 @@
+ /* div {
+
+
+    border: 13px solid;
+    padding: 10px;  
+    background-color: blueviolet;
+    width: 400px;
+    height: 400px;
+    
+}
+ */
+
+ #span{
+    position: fixed;
+ }
+
+ .p {
+    position: relative;
+    top: 0px;
+    left: 70px;
+ }
+
+.div1 { 
+    background-color: rgb(205, 78, 89);
+    width: 300px;
+    height: 100px;
+    border: 1px solid blue;
+  }
+  
+  .div2 {
+    background-color: blueviolet;
+    width: 300px;
+    height: 100px;
+    padding: 50px;
+    border: 1px solid red;
+  }
+
+ 
