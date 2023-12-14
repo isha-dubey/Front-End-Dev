@@ -8,13 +8,7 @@ body {
 }
 
 .sociallinks{
-    display: flex;
-    margin: -16px ;
-    padding-left: 882px;
-    /* padding-right: 0px; */
-    background-color: black;
-    /* box-sizing: border-box;    */
-    /* background-color: transparent;  */
+   margin-left: 70px;
 }
 
  .top {

@@ -26,6 +26,29 @@
 
                 // Date object:
                 const date = new Date("2022-03-25");
+                let currentDate = new Date();
+                Accessing Date Components:  
+                                let year = currentDate.getFullYear();
+                                let month = currentDate.getMonth(); // Note: Months are zero-based (0 = January, 11 = December)
+                                let day = currentDate.getDate();
+
+If you want to keep the original Date object unchanged and create a new Date object with the modified date,
+// Create the original Date object
+let originalDate = new Date(); // current date and time
+
+// Create a new Date object based on the original
+let modifiedDate = new Date(originalDate);
+
+// Make changes to the new Date object
+modifiedDate.setFullYear(2022);
+modifiedDate.setMonth(5); // June (zero-based)
+modifiedDate.setDate(15);
+
+// Display both the original and modified dates
+console.log("Original Date:", originalDate);
+console.log("Modified Date:", modifiedDate);
+
+
 
 
 //////When adding a number and a string, JavaScript will treat the number as a string.
@@ -116,6 +139,7 @@ while (condition is true)
         {// do something}; increment
 
      ////
+     let index = 0
         while (index <=10) {
     console.log(index); index++}
 
