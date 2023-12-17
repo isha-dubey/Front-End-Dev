@@ -37,8 +37,7 @@ tu comeplete the action.
  {
   console.log (arguments)
   return x + y;
-
- }
+  
  sum (2,3)
 
  ...> arguments.length   
