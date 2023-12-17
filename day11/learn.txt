@@ -58,3 +58,8 @@ let obj = object.create(){
 }
 delete obj.Lname
 console.log(obj.Lname)
+
+
+
+
+
