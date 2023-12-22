@@ -1,0 +1,31 @@
+*{box-sizing: border-box;
+margin: 0;}
+
+
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: auto;
+}
+#container{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100%;
+}
+
+#Switch-theme{
+    height: 100px;
+    width: 300px;
+    font-size: xx-large;
+}
+
+@media (prefers-color-scheme : dark){
+    body .darktheme {
+        background-color: black;
+    }
+
+    body .lighttheme{
+        background-color: aliceblue;
+    }
+}

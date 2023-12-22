@@ -47,3 +47,63 @@ whenever a function is created its execution context is created and placed on th
 Summing up ki javascript works in synchronous way but due to event queque we feel
 that it is asynchronous.
 
+
+--------------------browser storage------------------------------
+In web development, browser storage refers to the mechanisms provided by web browsers to store data 
+persistently on the client side. There are two main types of browser storage: 
+
+1. **LocalStorage:**
+   - **Functionality:**
+     - LocalStorage is a simple key-value pair storage mechanism that allows you to store data as strings.
+     - It's synchronous and has a simple API, making it easy to use.
+     - Data stored in LocalStorage remains even after the user closes the browser and 
+     is available for future sessions.
+   - **Use Cases:**
+     - Storing small amounts of data (typically strings) that you want to persist 
+     between page reloads or sessions.
+     - Cache data to improve performance by reducing the need to fetch the same data repeatedly from a server.
+
+   - **Example:**
+     ```javascript
+     // Storing data in LocalStorage
+     localStorage.setItem('key', 'value');
+
+     // Retrieving data from LocalStorage
+     const storedValue = localStorage.getItem('key');
+     ```
+
+2. **SessionStorage:**
+   - **Functionality:**
+     - Similar to LocalStorage but scoped to a single session. Data stored in SessionStorage is only available for the duration of the page session.
+     - Like LocalStorage, it's synchronous and uses a key-value pair approach.
+
+            sessionStorage.setItem(key, value):
+            sessionStorage.getItem(key)
+            sessionStorage.removeItem(key)
+            sessionStorage.clear()
+
+
+
+
+   - **Use Cases:**
+     - Storing temporary data that is only needed for the duration of a page session.
+     - Sharing data between pages during the same session.
+
+   - **Example:**
+     ```javascript
+     // Storing data in SessionStorage
+     sessionStorage.setItem('key', 'value');
+
+     // Retrieving data from SessionStorage
+     const storedValue = sessionStorage.getItem('key');
+     ```
+
+Browser storage is commonly used to enhance the user experience by providing a way to store user 
+preferences, cache data, or maintain the state of an application. However, it's important to note
+ that browser storage is limited in capacity (usually around 5-10 MB per domain), and sensitive
+  data should be handled with caution. Developers often choose between LocalStorage and SessionStorage
+   based on the persistence requirements of the data. If data needs to persist across sessions, 
+   LocalStorage is used, while SessionStorage is suitable for data needed only during a single session.
+
+
+----------------creating dark theme // light theme button-------------
