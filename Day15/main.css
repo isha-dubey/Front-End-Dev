@@ -6,6 +6,7 @@ body{
     width: 100vw;
     height: 100vh;
     margin: auto;
+  
 }
 #container{
    display: flex;
@@ -21,11 +22,11 @@ body{
 }
 
 @media (prefers-color-scheme : dark){
-    body .darktheme {
+     .darktheme {
         background-color: black;
     }
 
-    body .lighttheme{
+     .lighttheme{
         background-color: aliceblue;
     }
 }
