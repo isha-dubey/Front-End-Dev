@@ -1,0 +1,42 @@
+---------------node------------------
+
+Node is a javascript runtime environment. javascript runs inside a browser
+but node.js wale log took the js engine and took it to the computer and gave additional
+super powers 
+
+v8 engine which is a js engine used by chrome also powers node.js . Node.js utilizes the V8 engine to
+ interpret and execute JavaScript code. it helps in working on larget projects
+
+super powers like access to file systems , os level api etc
+
+so in node comes Node package manager.
+
+-------------------node package manager--------------------
+npm is a huge source of libraries / Js codes that provides different functionalties
+
+npm is used to install, share, and manage packages or libraries of code for JavaScript. It plays 
+a crucial role in the Node.js ecosystem and is one of the largest software registries in the world
+
+
+---------npm commands--------
+npm remove lodash
+npm i prettier
+ npm init
+ npm -v
+npm i sass --save-dev
+
+ node_modules\.bin\sass C:\Users\Administrator\frontend\Day16\main.scss main.css
+
+--- to automatic update --watch
+ node_modules\.bin\sass --watch  C:\Users\Administrator\frontend\Day16\main.scss main.css
+
+
+
+-------------SASS--------------
+synatactically awesome style sheets
+
+Sass (Syntactically Awesome Stylesheets) is a popular CSS preprocessor that
+ adds additional features and capabilities to traditional CSS. Sass allows you 
+ to use variables, nested rules, mixins, and functions, making your stylesheets
+  more maintainable and efficient. It introduces a more programmatic approach to 
+styling, which can be particularly beneficial for large and complex projects.

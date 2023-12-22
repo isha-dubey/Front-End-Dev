@@ -1,0 +1,16 @@
+// nesting
+// article {
+//     p {
+//         color: blueviolet
+//         ;
+//     }
+// }
+
+//variables custom 
+$color : rgb(130, 130, 201);
+
+article {
+    p {
+        color: $color;
+    }
+}
