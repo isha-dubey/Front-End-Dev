@@ -10,5 +10,9 @@
 // console.log(publicprops)
 
 
-import {publicVariable} from "./somefile.js"
-console.log (publicVariable)
+// import {publicVariable} from "./somefile.js"
+// console.log (publicVariable)
+
+
+import abc from "./somefile.js"
+abc()

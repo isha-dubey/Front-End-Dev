@@ -69,3 +69,31 @@ in main.js------------------
 
 import {publicVariable} from "./somefile.js"
 console.log (publicVariable)
+
+
+-----these  exports we learned are main exports , the another type of export we learn is default exports
+
+in somefile.js
+
+function defaultExport(){
+  console.log('default export')
+
+}
+
+in main.js-----
+
+import abc from "./somefile.js
+
+
+for default Exports you dont nedd to use the curly brackets and you cn name it any thing
+we can aslo use default export and name export together
+
+ex-   import defaultExport , {publicVariable} from "./somefile.js"
+
+
+difference is you can have one default export but multiple name exports
+
+another way of using import function is that instead of writing it in front 
+of the variable . we can use it like this
+
+export {publicVariable} at the bottom of the code
