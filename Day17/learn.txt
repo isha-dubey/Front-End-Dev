@@ -96,4 +96,11 @@ difference is you can have one default export but multiple name exports
 another way of using import function is that instead of writing it in front 
 of the variable . we can use it like this
 
-export {publicVariable} at the bottom of the code
+export {publicVariable} at the bottom of the code...
+we can use "*" functionality to export these altogether
+
+import * as everything from "./somefile.js"
+
+---------------------Webpacks-----------------------
+webpack is a module bundeler it allows us to use the module like structures .
+webpacks se dependencies ko bundle krna basically it allows you to bundle many files into single files. 
