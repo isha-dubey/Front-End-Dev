@@ -1,1 +1,1 @@
-console.log(publicprops.value)
+// console.log(publicprops.value)

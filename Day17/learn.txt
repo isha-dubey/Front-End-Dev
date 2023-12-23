@@ -13,3 +13,59 @@ Here's the basic structure of an IIFE:
 
 
 
+in main.js
+
+
+let publicprops = (function () {
+
+    let publicVariable = 10
+    let privateVariable = 20
+    return {
+        value : publicVariable
+    }
+})()
+
+console.log(publicprops)
+
+in anotherfile.js
+
+console.log(publicprops.value)
+
+
+<!-- // how the files are placed is very important in javascript (upar niche na ho) -->
+<!-- // also know as object revealing pattern , we only showed publicVariable hiding the other -->
+
+
+
+We can do this is in more better way in ES6 with the hekp of modules we can do this module thing
+modules allow us to structure our code and share the class with other files 
+
+syntax -- <script type="module" src="main.js">  </script>
+
+Let say we have two variables and two js files one with declaration and another with execution
+
+in main.js--------
+
+console.log(publicVariable , privateVariable)
+
+in somefile.js -----------
+
+let publicVariable=10
+let privateVariable = 20
+
+In order to share these files we have to load these 
+variables with one another we have to load it in html.
+if we want to export something it can be a variable or functionand if some
+wants to consume the functionality that you are using they can use with import function
+
+
+since we want to export the variable we will use somefile.js
+
+
+export let publicVariable = 10
+let privateVariable = 20
+
+in main.js------------------
+
+import {publicVariable} from "./somefile.js"
+console.log (publicVariable)

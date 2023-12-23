@@ -1,10 +1,14 @@
-let publicprops = (function () {
+// let publicprops = (function () {
 
-    let publicVariable = 10
-    let privateVariable = 20
-    return {
-        value : publicVariable
-    }
-})()
+//     let publicVariable = 10
+//     let privateVariable = 20
+//     return {
+//         value : publicVariable
+//     }
+// })()
 
-console.log(publicprops)
+// console.log(publicprops)
+
+
+import {publicVariable} from "./somefile.js"
+console.log (publicVariable)
