@@ -103,11 +103,11 @@
 // for (let [key, value] of myMap.entries()) {
 //   console.log(key, value);
 // }
-date = 2023-10-12
-Days_of_the_week = ['mon' ,'tues' ,'wed' ,'thrud' ,'friday' ,'sat' , 'sunday']
-const daysoftheweek = Days_of_the_week[new Date(date).getDay()]
-console.log(daysoftheweek)
-// arrays and its methods---------------------
+// date = 2023-10-12
+// Days_of_the_week = ['mon' ,'tues' ,'wed' ,'thrud' ,'friday' ,'sat' , 'sunday']
+// const daysoftheweek = Days_of_the_week[new Date(date).getDay()]
+// console.log(daysoftheweek)
+// // arrays and its methods---------------------
 
 
-jsbsdjndsaasj n
+// jsbsdjndsaasj n
