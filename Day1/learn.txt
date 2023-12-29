@@ -34,3 +34,12 @@ JS
 # <nav> this includes links like a navigation bar generally used at the header</nav>
 
 CSS
+
+
+<!DOCTYPE html>
+< hmtl lang ="en">
+<head>
+<meta charset="UTF-8">
+<meta name ="viewport" content="width = device-width , initial scale = 1.0>
+</head>
+<title>document</title>
