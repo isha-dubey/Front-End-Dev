@@ -10,7 +10,7 @@
 // })
 
 
-// ##### how add an remove eventlistener (mouseover)
+// ##### how add and remove eventlistener (mouseover)
 // function handleMouseOver(e){
 //     console.log(e)
 // }

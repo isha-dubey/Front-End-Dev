@@ -1,7 +1,7 @@
 // message = "hello isha"
 
 // function hello1(){
-// //    let message = "hello mohit"
+//    let message = "hello mohit"
 
 //  { let  message = "good noon"
 //     console.log("good morning" + message) }
@@ -27,8 +27,9 @@
 //     {
 //         console.log("i am cute" + message)
 //     }
-//     message = "hello isha" 
+//     message = " ~ isha" 
 //     return c 
+
 // }
 
 // c = hello1()
@@ -131,4 +132,21 @@
 // lognow("this is another info to be logged")
 // lognow("some other idea")
 
-
+// function borrowing
+// const person1 = {
+//     firstName: 'John',
+//     lastName: 'Doe',
+//     fullName: function() {
+//       return this.firstName + ' ' + this.lastName;
+//     }
+//   };
+  
+//   const person2 = {
+//     firstName: 'Jane',
+//     lastName: 'Doe'
+//   };
+  
+//   // Borrowing the fullName method from person1 and applying it to person2
+//   const borrowedFunction = person1.fullName.bind(person2);
+//   console.log(borrowedFunction()); // Outputs: Jane Doe
+  

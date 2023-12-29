@@ -49,7 +49,7 @@ Date objects, Array objects, and Person objects inherit from Object.prototype.
 
 Normally if we use object literal syntax and then delete any value from it it will be delted
 from its protto also. but if we use object.create we can not delte any value cause its permanently stored
-in it\
+in it.
 
 let obj = object.create(){
 
