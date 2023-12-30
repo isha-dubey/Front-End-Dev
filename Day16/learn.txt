@@ -19,6 +19,7 @@ a crucial role in the Node.js ecosystem and is one of the largest software regis
 
 
 ---------npm commands--------
+npm
 npm remove lodash
 npm i prettier
  npm init
