@@ -1,6 +1,6 @@
-Leartn basic structure of HTML with basic meaning of what is CSS and Javascript
+Learn basic structure of HTML with basic meaning of what is CSS and Javascript
 
-HTML
+HTML                                    
 -allows us to structure doc using markups
 
 CSS
