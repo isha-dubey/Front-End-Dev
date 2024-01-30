@@ -52,14 +52,63 @@
         // ReactDOM.render(element , root)
     
         // OR
-        const root = document.getElementById("root")
-        const greeting = ""
-        const element = ( 
-            <div>{greeting ? greeting : "Hey"} , Isha.</div>
-        )
-        ReactDOM.render(element , root)
+        // const root = document.getElementById("root")
+        // const greeting = ""
+        // const element = ( 
+        //     <div>{greeting ? greeting : "Hey"} , Isha.</div>
+        // )
+        // ReactDOM.render(element , root)
+
+        // FRAGMENTS
+          
+        // const root = document.getElementById("root")
+        // const onClickOfSpan = () => {
+        //     alert("span clicked")
+        // }
+        // const element = (
+        //     <React.Fragment>
+        //       <p onClick={onClickOfSpan}>Element</p>
+        //       <p>Element 2</p>
+        //       <p>Element 3</p>
+        //     </React.Fragment>
+        //     );
+
+        // ReactDOM.render(element , root)
+
+        // suppose we want to display multiple of greetings
+
+        
+        // const root = document.getElementById("root")
+        // const greeting = (props) => {
+        //   return <span>{props.message}</span>
+
+        // }
+        // const element = ( 
+        //     <React.Fragment>
+        //       <p>{greeting({message : 'hello'})}</p>
+        //       <p>{greeting({message : 'hello'})}</p>
+        //       <p>{greeting({message : 'hello'})}</p>
+        //      </React.Fragment>
+        // )
+        // ReactDOM.render(element , root)
+     
+        // intead of calling it like that we can use react compnonents
 
 
+        const Greeting = (props) => (
+         <div>
+        <h1>Hello, {props.name}!</h1>
+        <p>{props.message}</p>
+        </div>  
+        );
+
+    const greetingProps = {
+        name: 'John',
+        message: 'Welcome to the React world!',
+    };
+
+    // Rendering Greeting component directly with props
+    ReactDOM.render(<Greeting {...greetingProps} />, document.getElementById('root'));
     </script>
 </body>
 </html>
