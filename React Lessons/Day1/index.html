@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<div id="root" >
+</div>    
+    <script src="https://unpkg.com/react@16.7.0/umd/react.production.min.js"></script>
+    <script src="https://unpkg.com/react-dom@16.7.0/umd/react-dom.production.min.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <script type="text/babel">
+
+        // creating element in JS
+
+        // const root = document.getElementById("root")
+        // const element = document.createElement("span")
+        // element.className = "container"
+        // element.textContent = "helloe students"
+        // root.appendChild(element)
+
+        // creating element in React
+        // const root = document.getElementById("root")
+        // const element = React.createElement('div', { className: 'container' },
+        // 'hello isha',
+        // React.createElement('div', null, 'whatsaup')
+        // );
+        // //  either we can pass write children upar ya phir ek array bana skte
+        // ReactDOM.render(element , root)
+
+        // Using jsx in react for faster understandong  by adding babel
+
+        const root = document.getElementById("root")
+        const element = (
+            <div className=" container">
+            Hello students // script type me babel add krna pdega tabhi jsx chlega
+            <div> whatsaup </div>
+            </div>
+            )
+        ReactDOM.render(element , root)
+
+    </script>
+</body>
+</html>

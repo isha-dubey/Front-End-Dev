@@ -1,0 +1,21 @@
+
+
+
+
+
+
+#INTERPOLATION 
+In React, interpolation refers to the process of
+embedding dynamic values or expressions within JSX. It involves using curly 
+braces {} to wrap JavaScript expressions or variables, allowing you to inject 
+dynamic content into your JSX code.
+
+const App = () => {
+  const name = 'John';
+
+  return (
+    <div>
+      <p>Hello, {name}!</p>
+    </div>
+  );
+};
