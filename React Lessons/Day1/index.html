@@ -33,14 +33,32 @@
 
         // Using jsx in react for faster understandong  by adding babel
 
+        // const root = document.getElementById("root")
+        // const element = (
+        //     <div className=" container">
+        //     Hello students // script type me babel add krna pdega tabhi jsx chlega
+        //     <div> whatsaup </div>
+        //     </div>
+        //     )
+        // ReactDOM.render(element , root)
+
+        // INTERPOLATION
+
+        // const root = document.getElementById("root")
+        // const greeting = "YO YO"
+        // const element = ( 
+        //     <div>{greeting} , Isha.</div>
+        // )
+        // ReactDOM.render(element , root)
+    
+        // OR
         const root = document.getElementById("root")
-        const element = (
-            <div className=" container">
-            Hello students // script type me babel add krna pdega tabhi jsx chlega
-            <div> whatsaup </div>
-            </div>
-            )
+        const greeting = ""
+        const element = ( 
+            <div>{greeting ? greeting : "Hey"} , Isha.</div>
+        )
         ReactDOM.render(element , root)
+
 
     </script>
 </body>

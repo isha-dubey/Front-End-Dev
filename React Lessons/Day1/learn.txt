@@ -19,3 +19,40 @@ const App = () => {
     </div>
   );
 };
+
+
+
+In React, when we talk about "expressions" in the context of interpolation,
+we mean that the content within the curly braces {} should evaluate to a 
+single value. In contrast, "statements" represent a set of instructions or 
+actions that may involve multiple steps and do not directly produce a value.
+
+In JSX, we use curly braces to embed JavaScript expressions, and these expressions 
+should result in a single value. For example:
+
+jsx
+Copy code
+const number = 5;
+
+// This is an expression
+<p>The square of {number} is {number * number}.</p>
+Here, {number * number} is an expression that evaluates to a single value—the 
+square of the number. Expressions are used to inject dynamic content into the JSX markup.
+
+Now, let's discuss why statements are not allowed directly within JSX:
+
+JSX Is Not JavaScript:
+JSX looks similar to JavaScript, but it's actually a syntactic sugar for 
+React.createElement calls. It is not a full-fledged JavaScript runtime. When 
+you use JSX, it gets transpiled into JavaScript code by tools like Babel. 
+Statements (which include control flow statements like if, for, etc.) are not 
+valid expressions that can be directly embedded in JSX.
+
+JSX and JavaScript Interoperability:
+JSX is designed to work seamlessly with JavaScript expressions to maintain 
+simplicity and readability. Allowing statements within JSX could complicate 
+the translation process and make it less predictable.
+
+However, you can use expressions that involve ternary operators or immediately 
+invoked function expressions (IIFE) to achieve conditional logic or execute multiple 
+statements indirectly within JSX:
