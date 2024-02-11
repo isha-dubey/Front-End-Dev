@@ -159,9 +159,9 @@ while (condition is true)
                         ###ARRAys
     
     -allows collection of similar datatypes
-    -  const fruits=["apple", "anana" , "kiwi"]
+    -  const fruits=["apple", "banana" , "kiwi"]
       
-      /// to modify
+      ///to modify
         fruits[1] = "date"
       ///
       an array can have different data types

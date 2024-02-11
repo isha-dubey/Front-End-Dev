@@ -2,6 +2,11 @@
 // para.textContent = "this is created using an API";
 
 // para.setAttribute("color", "red")
+
+// Overall, setAttribute() is a versatile method for dynamically modifying attributes of DOM 
+// elements in JavaScript, providing flexibility and consistency in web development.
+
+
 // console.log(para.getAttribute("color"))
 
 // const span = document.createElement("span");
@@ -11,7 +16,7 @@
 // span.innerHTML = "this span tag is <em>created by dom</em>"  //we can create another child element using inner html property
 
 // para.appendChild(span);
-
+ 
 // document.body.appendChild(para);
 
 // const hobbies = ["dance", "swimming", "eating"]
