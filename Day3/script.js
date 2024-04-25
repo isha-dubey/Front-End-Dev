@@ -65,7 +65,7 @@ function clearletters(){
     letterIndex -= 1;
     setTimeout (clearletters , 100);
     }
-  else if (letterIndex == -1)
+  else if (letterIndex == -1) 
   { phraseIndex= (phraseIndex +1) % phrases.length;
     letterIndex = 0;
     printLetters(phrases[phraseIndex])

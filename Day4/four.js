@@ -1,6 +1,4 @@
 
-
-
 // document.getElementById("button").onclick = handleClick  <-- way of adding event listener
 // another way is shown below
 

@@ -4,7 +4,7 @@ again for different values assigned instead of that we will use it again and aga
 just like css we can also link a JS file by creating .js file.
 
 <script src='main.JS'>
-   </script>
+</script>
 
 ####functions###3
 
