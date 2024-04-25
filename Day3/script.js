@@ -1,36 +1,36 @@
-// const para = document.createElement("p");
-// para.textContent = "this is created using an API";
+const para = document.createElement("p");
+para.textContent = "this is created using an API";
 
-// para.setAttribute("color", "red")
+para.setAttribute("color", "red")
 
-// Overall, setAttribute() is a versatile method for dynamically modifying attributes of DOM 
-// elements in JavaScript, providing flexibility and consistency in web development.
+Overall, setAttribute() is a versatile method for dynamically modifying attributes of DOM 
+elements in JavaScript, providing flexibility and consistency in web development.
 
 
-// console.log(para.getAttribute("color"))
+console.log(para.getAttribute("color"))
 
-// const span = document.createElement("span");
-// span.id = "span-id"
-// span.className = "blue"
-// //span.textContent = "this span tag is created by dom"
-// span.innerHTML = "this span tag is <em>created by dom</em>"  //we can create another child element using inner html property
+const span = document.createElement("span");
+span.id = "span-id"
+span.className = "blue"
+//span.textContent = "this span tag is created by dom"
+span.innerHTML = "this span tag is <em>created by dom</em>"  //we can create another child element using inner html property
 
-// para.appendChild(span);
+para.appendChild(span);
  
-// document.body.appendChild(para);
+document.body.appendChild(para);
 
-// const hobbies = ["dance", "swimming", "eating"]
-// // create the unordered list of above array
-// const list = document.createElement("ul")
+const hobbies = ["dance", "swimming", "eating"]
+// create the unordered list of above array
+const list = document.createElement("ul")
 
 
-// for (let hobby of hobbies) {
-//     list.innerHTML += "<li>" + hobby + "</li>";
-// }
+for (let hobby of hobbies) {
+    list.innerHTML += "<li>" + hobby + "</li>";
+}
 
-// document.body.appendChild(list);
+document.body.appendChild(list);
 
-// // get elements
+// get elements
 
 
 
